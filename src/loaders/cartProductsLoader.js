@@ -15,7 +15,8 @@ const cartProductsLoader = async() =>{
             savedCart.push(addedProduct);
         }
     }
-    console.log(products);
+    // console.log(products);
+    console.log(savedCart);
     return savedCart;
 }
 
